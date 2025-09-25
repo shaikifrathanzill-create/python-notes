@@ -1,0 +1,54 @@
+# 1
+a= int(input("enter your num a:"))
+b=int(input("enter your num b:"))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a**b)
+print(a%b)
+print(a/b)
+print(a//b)
+
+# 2
+x=4
+y=5
+print(x,y)
+print("x=",x, "y=",y)
+
+# 3
+a = float(input ("enter first number:"))
+b =float(input("enter second number:"))
+if a==b:
+    print("equal")
+else:
+    print("not equal")
+
+# 4
+import array as arr
+arr=[1,2,3,4,5]
+arr.reverse()
+print(arr)
+
+# 5
+import array as arr
+arr=(2,3,6,8)
+print(sum(arr))
+print(sum(arr)/len (arr))
+
+# 6
+import numpy as np
+# 1D array
+arr= np.array([1,2,3,4,5])
+# Reshaped ther array into 20
+reshaped_arr=arr.reshaped(2,3)
+print("original 1D array:")
+print(arr)
+print("reshaped 2D array:")
+print(arr) 
+
+# 7
+import array as np
+a=np.array('i',[1,2,4])
+b=np.array('i'[2,3,5])
+result=a*b
+print(result)
